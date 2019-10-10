@@ -1,0 +1,20 @@
+﻿*kullandığın chrome versiyonuna göre chromedriver indir("https://sites.google.com/a/chromium.org/chromedriver/downloads" adresinden) ve PinterestBot klasöründe "chromedriver.exe" adıyla dursun
+*fotoğraf .jpg formatında olmak zorunda(pinterest .jpg kabul ediyor)
+*excel'e uzantısı OLMADAN fotoğrafın adı yazılmalı (örn: image, mobilya1)
+*klasör isimleri değiştirilmeyecek
+*program fotoğrafları pinterest'teki ilk boarda yükler
+*eğer tarayıcıda tıklama gibi işlemler için zamanlama yanlış oluyorsa kodlardaki time.sleep() değerleri değiştirilerek kalibre edilmeli(internet ve bilgisayar hızına göre değişiklik gösterir)
+*bütün fotoğraflara karşılık title ve url olacak
+*bütün fotoğrafları yüklediğinde program biter(tuşlar aktif hale gelir)
+*pinterestin desteklediği bütün resim türlerini kabul eder.(jpg,png vs.)
+*resimlerin adı sayı olamaz
+*karışıklık olmaması için exceli düzenlemeden önce stop tuşuna basmanız önerilir. exceli düzenleyip programı başlatmadan önce programın tarayıcıyı otomatik kapatmış olduğundan ve programa ait başka tarayıcının açık olmadığından emin olun.
+*excelden çıkarma yapmanız önerilmez, sadece ekleme yapmanız önerilir. Çıkarma yapmanız gerekirse, stop tuşuyla programı durdurun veya kapatın, çıkarma işlemini yapıp tekrar açın
+*ekleme yapılacağında hem fotoğrafların, hem de excel satırının eklenmesi gerekli.
+
+*excel yazma sırası:
+1.sütun - fotoğraf ismi
+2.sütun - fotoğraf başlığı
+3.sütun - url
+4.sütun - açıklama
+5.sütun - board linki
